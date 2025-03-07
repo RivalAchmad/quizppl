@@ -67,7 +67,7 @@ jobs:
         pip install selenium webdriver-manager pytest chromedriver-autoinstaller
 
     - name: Run Selenium Tests
-      run: python tests/test.py
+      run: python test/test.py
 
     - name: Upload Test Results
       if: always()
